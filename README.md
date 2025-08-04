@@ -1,1 +1,2 @@
-# Scoreasy
+# Scoreazy
+Scoreazy Landing Page
