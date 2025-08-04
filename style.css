@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+  background: #f9fbff;
+  color: #333;
+}
+
+header.hero {
+  background-color: #e0f7fa;
+  padding: 2rem;
+  text-align: center;
+  position: relative;
+}
+
+.logo {
+  width: 120px;
+  margin-bottom: 1rem;
+}
+
+.hero-content h1 {
+  font-size: 2rem;
+  color: #00796b;
+}
+
+.hero-content p {
+  max-width: 600px;
+  margin: 1rem auto;
+  font-size: 1.1rem;
+}
+
+.cta {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background: #00796b;
+  color: #fff;
+  border-radius: 5px;
+  margin-top: 1rem;
+  text-decoration: none;
+}
+
+.banner {
+  width: 75%;
+  max-height: 50rem;
+  object-fit: cover;
+  margin-top: 1rem;
+  border-radius: 8px;
+}
+
+section {
+  padding: 2rem;
+  text-align: center;
+}
+
+.about p,
+.benefits ul {
+  max-width: 700px;
+  margin: auto;
+  font-size: 1rem;
+}
+
+.benefits ul {
+  list-style: none;
+  margin-top: 1rem;
+}
+
+.benefits li {
+  background: #fff;
+  padding: 0.75rem;
+  margin: 0.5rem 0;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.testimonials .testimonial {
+  background: #fff3e0;
+  margin: 1rem auto;
+  padding: 1rem;
+  max-width: 500px;
+  border-radius: 5px;
+}
+
+.faqs details {
+  margin: 1rem auto;
+  max-width: 600px;
+  text-align: left;
+  background: #fff;
+  padding: 1rem;
+  border-radius: 5px;
+  border-left: 4px solid #00796b;
+}
+
+.cta-final {
+  background: #00796b;
+  color: white;
+  padding: 2rem;
+}
+
+.cta-final a.cta {
+  background: #fff;
+  color: #00796b;
+  margin-top: 1rem;
+}
+
+footer {
+  background: #263238;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+}
+
+/* Mobile-first: small screens */
+@media (max-width: 480px) {
+  .banner {
+    max-height: 200px;
+    width: 100%;
+  }
+}
+
+/* Tablet screens */
+@media (min-width: 481px) and (max-width: 767px) {
+  .banner {
+    max-height: 300px;
+  }
+}
+
+/* Small laptop */
+@media (min-width: 768px) and (max-width: 991px) {
+  .banner {
+    max-height: 400px;
+  }
+}
+
+/* Medium desktop */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .banner {
+    max-height: 500px;
+  }
+}
+
+/* Large screens */
+@media (min-width: 1200px) {
+  .banner {
+    max-height: 600px;
+  }
+}
